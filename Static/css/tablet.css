@@ -1,0 +1,62 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+   font-size: 0.8rem;
+   padding: 3px 7px;
+   padding-bottom: 20px;
+       
+}
+#home{
+    height: 320px;
+    padding: 3px 50px;
+}
+#home::before{
+    height: 500px;
+}
+#home p{
+    font-size: 15px;
+    line-height: 100%;
+}
+.btn{
+    height: 60px;
+}
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.product{
+    flex-wrap: wrap;
+
+}
+.product img{
+    width: 100px;
+}
+#product-section::before{
+
+
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+
+
+
+}
+.form {
+    width: 80%;
+    margin:  20px 45px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+
+}
+.form input{
+    width: 200px;
+}
+
+.footer-1{
+    margin-top: 120px;
+}
+
